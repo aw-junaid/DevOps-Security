@@ -1,6 +1,8 @@
 # DevOps-Security
+
 > Secure DevOps pipelines: CI/CD security, infrastructure as code (IaC) best practices, container security, and vulnerability scanning for robust deployments.
-# Contact With Me:
+
+## Contact With Me:
 
 <div align="left">
   <a href="https://www.youtube.com/@awjunaid/featured" target="_blank">
@@ -59,25 +61,35 @@
 ### Articles
 
 - [Our Approach to Employee Security Training](https://www.pagerduty.com/blog/security-training-at-pagerduty/) - _Pager Duty_ - Guidelines to running security training within an organisation.
-- [DevSecOps: Making Security Central To Your DevOps Pipeline](https://spacelift.io/blog/what-is-devsecops) - _Spacelift_ - An article explains what DevSecOps aims to achieve, why it’s advantageous, and how the DevSecOps lifecycle looks.
+- [DevSecOps: Making Security Central To Your DevOps Pipeline](https://spacelift.io/blog/what-is-devsecops) - _Spacelift_ - An article explains what DevSecOps aims to achieve, why it's advantageous, and how the DevSecOps lifecycle looks.
+- [The Twelve-Factor App: Security Considerations](https://12factor.net/) - _Heroku_ - While not security-specific, a foundational reference for building sound, config-driven applications that are easier to secure.
+- [Shifting Left on Security](https://www.redhat.com/en/topics/devops/what-is-devsecops) - _Red Hat_ - An overview of what it means to "shift left" and embed security earlier in the pipeline.
 
 ### Books
 
 - [Alice and Bob Learn Application Security](https://www.wiley.com/en-gb/Alice+and+Bob+Learn+Application+Security-p-9781119687405) - _Tanya Janca_ - An accessible and thorough resource for anyone seeking to incorporate, from the beginning of the System Development Life Cycle, best security practices in software development.
+- [Building Secure and Reliable Systems](https://sre.google/books/) - _Google_ - Practical lessons from Google on designing, implementing and maintaining systems that are both secure and reliable.
+- [Threat Modeling: Designing for Security](https://www.wiley.com/en-us/Threat+Modeling%3A+Designing+for+Security-p-9781118809990) - _Adam Shostack_ - A comprehensive, practical guide to threat modelling for software and system designers.
+- [The DevOps Handbook](https://itrevolution.com/product/the-devops-handbook-third-edition/) - _Gene Kim, Jez Humble, Patrick Debois, John Willis_ - Not security-specific, but the foundational text for the DevOps practices that DevSecOps builds on.
 
 ### Communities
 
 - [DevSecCon](https://www.devseccon.com/) - _Snyk_ - A community that runs conferences, a blog, a podcast and a Discord dedicated to DevSecOps.
 - [TAG Security](https://tag-security.cncf.io/) - _Cloud Native Computing Foundation_ - TAG Security facilitates collaboration to discover and produce resources that enable secure access, policy control, and safety for operators, administrators, developers, and end-users across the cloud native ecosystem.
+- [OWASP Slack](https://owasp.org/slack/invite) - _OWASP_ - The official OWASP Slack workspace, with channels for most OWASP projects and general application security discussion.
+- [r/netsec](https://www.reddit.com/r/netsec/) - _Reddit_ - A community-curated feed of technical security news, research and write-ups relevant to application and infrastructure security.
 
 ### Conferences
 
 - [AppSec Day](https://appsecday.io/) - _OWASP_ - An Australian application security conference run by OWASP.
 - [DevSecCon](https://www.devseccon.com/) - _Snyk_ - A network of DevSecOps conferences run by Snyk.
+- [OWASP Global AppSec](https://owasp.org/events/) - _OWASP_ - OWASP's flagship series of application security conferences held across multiple regions each year.
+- [Black Hat](https://www.blackhat.com/) - _Black Hat_ - A long-running series of security conferences covering offensive and defensive research, including application security and DevSecOps tracks.
 
 ### Newsletters
 
-- [Shift Security Left](https://shift-security-left.curated.co/) - _Cossack Labs_ - A free biweekly newsletter for security-aware developers covering application security, secure architecture, DevSecOps, cryptography, incidents, etc. that can be useful for builders and (to a lesser extent) for breakers. 
+- [Shift Security Left](https://shift-security-left.curated.co/) - _Cossack Labs_ - A free biweekly newsletter for security-aware developers covering application security, secure architecture, DevSecOps, cryptography, incidents, etc. that can be useful for builders and (to a lesser extent) for breakers.
+- [tl;dr sec](https://tldrsec.com/) - _Clint Gibler_ - A weekly newsletter summarising notable AppSec, cloud security and DevSecOps talks, tools and writeups.
 
 ### Podcasts
 
@@ -86,6 +98,7 @@
 - [BeerSecOps](https://blog.aquasec.com/devsecops-podcasts) - _Aqua Security_ - Breaking down the silos of Dev, Sec and Ops, discussing topics that span these subject areas.
 - [DevSecOps Podcast Series](https://soundcloud.com/owasp-podcast) - _OWASP_ - Discussions with thought leaders and practitioners to integrate security into the development lifecycle.
 - [The Secure Developer](https://www.mydevsecops.io/the-secure-developer-podcast) - _Snyk_ - Discussion about security tools and best practices for software developers.
+- [Smashing Security](https://www.smashingsecurity.com/) - _Graham Cluley & Carole Theriault_ - A lighter, story-driven weekly podcast covering security news relevant to developers and non-experts alike.
 
 ### Secure Development Guidelines
 
@@ -95,6 +108,8 @@
 - [Proactive Controls](https://owasp.org/www-project-proactive-controls/) - _OWASP_ - OWASP's list of top ten controls that should be implemented in every software development project.
 - [Secure Coding Guidelines](https://wiki.mozilla.org/WebAppSec/Secure_Coding_Guidelines) - _Mozilla_ - A guideline containing specific secure development standards for secure web application development.
 - [Secure Coding Practices Quick Reference Guide](https://owasp.org/www-pdf-archive/OWASP_SCP_Quick_Reference_Guide_v2.pdf) - _OWASP_ - A checklist to verify that secure development standards have been followed.
+- [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks) - _Center for Internet Security_ - Consensus-based configuration hardening guidelines for operating systems, cloud providers and software.
+- [NIST SP 800-218: Secure Software Development Framework](https://csrc.nist.gov/pubs/sp/800/218/final) - _NIST_ - The finalised version of NIST's practices for secure software development.
 
 ### Secure Development Lifecycle Framework
 
@@ -102,11 +117,13 @@
 - [Secure Development Lifecycle](https://www.microsoft.com/en-us/securityengineering/sdl/practices) - _Microsoft_ - A collection of tools and practices that serve as a framework for the secure development lifecycle.
 - [Secure Software Development Framework](https://csrc.nist.gov/CSRC/media/Publications/white-paper/2019/06/07/mitigating-risk-of-software-vulnerabilities-with-ssdf/draft/documents/ssdf-for-mitigating-risk-of-software-vulns-draft.pdf) - _NIST_ - A framework consisting of practices, tasks and implementation examples for a secure development lifecycle.
 - [Software Assurance Maturity Model](https://github.com/OWASP/samm) - _OWASP_ - A framework to measure and improve the maturity of the secure development lifecycle.
+- [ISO/IEC 27034](https://www.iso.org/standard/44378.html) - _ISO/IEC_ - An international standard providing guidance on integrating security into the processes used for developing applications.
 
 ### Toolchains
 
 - [Cloud Security and DevSecOps Best Practices _and_ Securing Web Application Technologies (SWAT) Checklist](https://www.sans.org/posters/cloud-security-devsecops-best-practices/) - _SANS_ - A poster containing the Securing Web Application Technologies (SWAT) Checklist, SANS Cloud Security Curriculum, Cloud Security Top 10, Top 12 Kubernetes Threats, and Secure DevOps Toolchain.
 - [Periodic Table of DevOps Tools](https://xebialabs.com/periodic-table-of-devops-tools/) - _XebiaLabs_ - A collection of DevSecOps tooling categorised by tool functionality.
+- [DevSecOps Maturity Model](https://dsomm.owasp.org/) - _OWASP_ - A model to help organisations assess and improve which DevSecOps tools and practices to adopt, and in what order.
 
 ### Training
 
@@ -119,14 +136,17 @@
 - [SecureFlag](https://www.secureflag.com/platform.html) - _OWASP_ - Hands-on secure coding training for Developers and Build/Release Engineers.
 - [Security Training for Engineers](https://sudo.pagerduty.com/for_engineers/) - _Pager Duty_ - A presentation created and open-sourced by PagerDuty to provide security training to software engineers.
 - [Security Training for Everyone](https://sudo.pagerduty.com/for_everyone/) - _Pager Duty_ - A presentation created and open-sourced by PagerDuty to provide security training employees.
-- [Semgrep Academy](https://academy.semgrep.dev/) - _Semgrep_ - Free, on-demand courses covering topics including API security, secure coding and application security.  
+- [Semgrep Academy](https://academy.semgrep.dev/) - _Semgrep_ - Free, on-demand courses covering topics including API security, secure coding and application security.
 - [Web Security Academy](https://portswigger.net/web-security) - _PortSwigger_ - A set of materials and labs to learn and exploit common web vulnerabilities.
 - [WeHackPuple](https://wehackpurple.com/) - _WeHackPurple_ - Online courses that teach application security theory and hands-on technical lessons.
+- [TryHackMe](https://tryhackme.com/) - _TryHackMe_ - Browser-based, guided cybersecurity learning paths and rooms covering application, network and cloud security.
+- [Hack The Box](https://www.hackthebox.com/) - _Hack The Box_ - Hands-on labs and challenges for practicing offensive and defensive security skills, including AppSec-focused tracks.
 
 ### Wikis
 
 - [DevSecOps Hub](https://snyk.io/devsecops/) - _Snyk_ - Introduction to key DevSecOps concepts, processes and technologies.
 - [SecureFlag Knowledge Base](https://knowledge-base.secureflag.com/) - _OWASP_ - A repository of information about software vulnerabilities and how to prevent them.
+- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) - _OWASP_ - Concise, actionable guidance on specific application security topics, from input validation to secrets management.
 
 ## Tools
 
@@ -143,6 +163,8 @@ Open source software packages can speed up the development process by allowing d
 - [Renovate](https://renovate.whitesourcesoftware.com/) - _WhiteSource_ - Automatically monitor and update software dependencies for multiple frameworks and languages using a CLI or git repository apps.
 - [Requires.io](https://requires.io/) - _Olivier Mansion & Alexis Tabary_ - Automated vulnerable dependency monitoring and upgrades for Python projects.
 - [Snyk Open Source](https://snyk.io/product/open-source-security-management/) - _Snyk_ - Automated vulnerable dependency monitoring and upgrades using Snyk's dedicated vulnerability database.
+- [OSV-Scanner](https://github.com/google/osv-scanner) - _Google_ - A vulnerability scanner built on top of the OSV database, supporting a wide range of language ecosystems and lockfile formats.
+- [Socket](https://socket.dev/) - _Socket_ - Analyses open source packages for supply-chain risk signals (install scripts, obfuscation, permission changes) rather than just known CVEs.
 
 ### Dynamic Analysis
 
@@ -155,6 +177,8 @@ Dynamic Analysis Security Testing (DAST) is a form of black-box security testing
 - [RESTler](https://github.com/microsoft/restler-fuzzer) - _Microsoft_ - A stateful RESTful API scanner based on peer-reviewed research papers.
 - [SSL Labs Scan](https://github.com/ssllabs/ssllabs-scan) - _SSL Labs_ - Automated scanning for SSL / TLS configuration issues.
 - [Zed Attack Proxy (ZAP)](https://github.com/zaproxy/zaproxy) - _OWASP_ - An open-source web application vulnerability scanner, including an API for CI/CD integration.
+- [Nikto](https://github.com/sullo/nikto) - _Sullo_ - An open-source web server scanner that tests for dangerous files, outdated software and other server-level issues.
+- [Arachni](https://github.com/Arachni/arachni) - _Arachni_ - A feature-rich, modular web application security scanner framework.
 
 ### Infrastructure as Code Analysis
 
@@ -166,6 +190,7 @@ Infrastructure as Code allows applications to be deployed reliably to a consiste
 - [KICS](https://github.com/Checkmarx/kics) - _Checkmarx_ - Find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle.
 - [Spectral DeepConfig](https://spectralops.io/blog/spectral-launches-deepconfig-to-ensure-no-misconfiguration-at-all-layers-of-software/) - _Spectral_ - Find misconfiguration both in infrastructure as well as apps as early as commit time.
 - [Terrascan](https://github.com/accurics/terrascan) - _Accurics_ - Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure.
+- [Snyk IaC](https://snyk.io/product/infrastructure-as-code-security/) - _Snyk_ - Scan Terraform, CloudFormation, Kubernetes and ARM templates for misconfigurations as part of the development workflow.
 
 <!-- omit in toc -->
 #### Cloud Formation
@@ -192,9 +217,11 @@ Infrastructure as Code allows applications to be deployed reliably to a consiste
 - [Kubescape](https://kubescape.io/) - _Cloud Native Computing Foundation_ - An open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters.
 - [Kube-Score](https://github.com/zegl/kube-score) - _Gustav Westling_ - Scan Kubernetes object definitions for security and performance misconfiguration.
 - [Kubectrl Kubesec](https://github.com/controlplaneio/kubectl-kubesec) - _ControlPlane_ - Plugin for kubesec.io to perform security risk analysis for Kubernetes resources.
+- [Kube-bench](https://github.com/aquasecurity/kube-bench) - _Aqua Security_ - Checks whether Kubernetes clusters are deployed according to the CIS Kubernetes Benchmark.
+- [Polaris](https://github.com/FairwindsOps/polaris) - _Fairwinds_ - Validates Kubernetes configuration against best-practice and security checks, with a dashboard and admission controller mode.
 
 #### Ansible
-- [Ansible-Lint](https://github.com/ansible-community/ansible-lint) - _Ansible Community_ - Checks playbooks for practices and behaviour that could potentially be improved. As a community backed project ansible-lint supports only the last two major versions of Ansible. 
+- [Ansible-Lint](https://github.com/ansible-community/ansible-lint) - _Ansible Community_ - Checks playbooks for practices and behaviour that could potentially be improved. As a community backed project ansible-lint supports only the last two major versions of Ansible.
 
 ### Intentionally Vulnerable Applications
 
@@ -211,13 +238,16 @@ Intentionally vulnerable applications are often useful when developing security 
 - [Terragoat](https://github.com/bridgecrewio/terragoat) - _Bridgecrew_ - Terraform templates for creating stacks of intentionally insecure services in AWS, Azure and GCP. Ideal for testing the Terraform Infrastructure as Code Analysis tools above.
 - [Vulnerable Web Apps Directory](https://owasp.org/www-project-vulnerable-web-applications-directory) - _OWASP_ - A collection of vulnerable web applications for learning purposes.
 - [WrongSecrets](https://github.com/OWASP/wrongsecrets) - _OWASP_ - Vulnerable app with examples showing how to not use secrets
-
+- [WebGoat](https://github.com/WebGoat/WebGoat) - _OWASP_ - A deliberately insecure Java-based web application designed to teach web application security lessons.
+- [Google Gruyere](https://google-gruyere.appspot.com/) - _Google_ - A small, deliberately vulnerable web application with an accompanying codelab for learning to find and fix bugs.
 
 ### Monitoring
 It's not enough to test and harden our software in the lead up to a release. We must also monitor our production software for usage, performance and errors to capture malicious behavior and potential security flaws that we may need to respond to or address. A wide variety of tools are available to monitor different aspects of production software and infrastructure.
 
 - [Csper](https://csper.io/report-uri) - _Csper_ - A set of Content Security Policy tools that can test policies, monitor CSP reports and provide metrics and alerts.
 - [Streamdal](https://streamdal.com) - _Streamdal_ - Embed privacy controls in your application code to detect and monitor PII as it enters and leaves your systems, preventing it from reaching unintended databases, data streams, or pipelines.
+- [Falco](https://github.com/falcosecurity/falco) - _CNCF_ - A cloud-native runtime security tool that detects anomalous behaviour in containers, hosts and Kubernetes clusters.
+- [Wazuh](https://github.com/wazuh/wazuh) - _Wazuh_ - An open-source security monitoring platform providing log analysis, intrusion detection and file integrity monitoring.
 
 ### Secrets Management
 
@@ -240,7 +270,8 @@ The software we write needs to use secrets (passwords, API keys, certificates, d
 - [Pinterest Knox](https://github.com/pinterest/knox) - _Pinterest_ - Securely store, rotate and audit secrets.
 - [Secrets Operations (SOPS)](https://github.com/mozilla/sops) - _Mozilla_ - Encrypt keys stored within YAML, JSON, ENV, INI and BINARY files.
 - [Teller](https://github.com/spectralops/teller) - _Spectral_ - A secrets management tool for developers - never leave your command line for secrets.
-
+- [Doppler](https://www.doppler.com/) - _Doppler_ - A centralised secrets manager that syncs configuration and secrets across environments, CI/CD and cloud providers.
+- [External Secrets Operator](https://github.com/external-secrets/external-secrets) - _External Secrets_ - A Kubernetes operator that syncs secrets from external APIs (Vault, AWS, Azure, GCP and more) into native Kubernetes secrets.
 
 ### Secrets Scanning
 
@@ -255,6 +286,7 @@ Source control is not a secure place to store secrets such as credentials, API k
 - [Repo-supervisor](https://github.com/auth0/repo-supervisor) - _Auth0_ - Secrets scanning tool that can run as a CLI, as a Docker container or in AWS Lambda.
 - [SpectralOps](https://spectralops.io) - _Spectral_ - Automated code security, secrets, tokens and sensitive data scanning.
 - [truffleHog](https://github.com/trufflesecurity/truffleHog) - _Truffle Security_ - Searches through git repositories for secrets, digging deep into commit history and branches.
+- [ggshield](https://github.com/GitGuardian/ggshield) - _GitGuardian_ - A CLI tool that wraps GitGuardian's detection engine for use in pre-commit hooks and CI/CD pipelines.
 
 ### Static Analysis
 
@@ -269,8 +301,9 @@ Static Analysis Security Testing (SAST) tools scan software for vulnerabilities 
 - [LGTM](https://lgtm.com/) - _Semmle_ - Scan and monitor code for security vulnerabilities using custom or built-in CodeQL queries.
 - [RIPS](https://www.ripstech.com/) - _RIPS Technologies_ - Automated static analysis for PHP, Java and Node.js projects.
 - [SemGrep](https://semgrep.dev/) - _r2c_ - Semgrep is a fast, open-source, static analysis tool that finds bugs and enforces code standards at editor, commit, and CI time.
-- [SonarLint](https://www.sonarlint.org/) - _SonarSource_ - An IDE plugin that highlights potential security security issues, code quality issues and bugs. 
+- [SonarLint](https://www.sonarlint.org/) - _SonarSource_ - An IDE plugin that highlights potential security security issues, code quality issues and bugs.
 - [SonarQube](https://www.sonarqube.org/) - _SonarSource_ - Scan code for security and quality issues with support for a wide variety of languages.
+- [CodeQL](https://github.com/github/codeql) - _GitHub_ - A semantic code analysis engine that treats code as data, letting you write and share queries to find vulnerabilities across a codebase.
 
 <!-- omit in toc -->
 #### C / C++
@@ -337,6 +370,8 @@ Supply chain attacks come in different forms, targeting parts of the SDLC that a
 - [Preflight](https://github.com/spectralops/preflight) - _Spectral_ - helps you verify scripts and executables to mitigate supply chain attacks in your CI and other systems, such as in the recent [Codecov hack](https://spectralops.io/blog/credentials-risk-supply-chain-lessons-from-the-codecov-breach/).
 - [Sigstore](https://www.sigstore.dev/) - sigstore is a set of free to use and open source tools, including [fulcio](https://github.com/sigstore/fulcio), [cosign](https://github.com/sigstore/cosign) and [rekor](https://github.com/sigstore/rekor), handling digital signing, verification and checks for provenance needed to make it safer to distribute and use open source software.
 - [Syft](https://github.com/anchore/syft/) - _Anchore_ - A CLI tool for generating a Software Bill of Materials (SBOM) from container images and filesystems.
+- [in-toto](https://in-toto.io/) - _in-toto_ - A framework to protect supply chain integrity by cryptographically verifying that each step in the chain was performed as expected, by the expected party.
+- [SLSA](https://slsa.dev/) - _OpenSSF_ - A security framework and set of incrementally adoptable levels for securing the software supply chain against tampering.
 
 ### Threat Modelling
 
@@ -350,6 +385,8 @@ Threat modelling is an engineering exercise that aims to identify threats, vulne
 - [Threat Dragon](https://owasp.org/www-project-threat-dragon/) - _OWASP_ - Threat model diagramming tool.
 - [Threat Modelling Tool](https://www.microsoft.com/en-us/securityengineering/sdl/threatmodeling) - _Microsoft_ - Threat model diagramming tool.
 - [Threatspec](https://threatspec.org/) - _Threatspec_ - Define threat modelling as code.
+- [pytm](https://github.com/izar/pytm) - _Izar Tarandach_ - A Pythonic framework for defining threat models as code and generating diagrams and reports from them.
+- [OWASP Cornucopia](https://owasp.org/www-project-cornucopia/) - _OWASP_ - A card-based mechanism used to gamify the identification of threats to software during design.
 
 ## Related Lists
 
@@ -358,3 +395,4 @@ Threat modelling is an engineering exercise that aims to identify threats, vulne
 - [Awesome Static Analysis](https://github.com/analysis-tools-dev/static-analysis/) - _Matthias Endler_ - A collection of static analysis tools and code quality checkers.
 - [Awesome Threat Modelling](https://github.com/hysnsec/awesome-threat-modelling) - _Practical DevSecOps_ - A curated list of threat modeling resources.
 - [Vulnerable Web Apps Directory](https://owasp.org/www-project-vulnerable-web-applications-directory) - _OWASP_ - A collection of vulnerable web applications for learning purposes.
+- [Awesome Supply Chain Security](https://github.com/JamieSlome/awesome-supply-chain-security) - A curated list of resources and tools specifically focused on _Software Supply Chain Security_.
