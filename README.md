@@ -372,6 +372,8 @@ Supply chain attacks come in different forms, targeting parts of the SDLC that a
 - [Syft](https://github.com/anchore/syft/) - _Anchore_ - A CLI tool for generating a Software Bill of Materials (SBOM) from container images and filesystems.
 - [in-toto](https://in-toto.io/) - _in-toto_ - A framework to protect supply chain integrity by cryptographically verifying that each step in the chain was performed as expected, by the expected party.
 - [SLSA](https://slsa.dev/) - _OpenSSF_ - A security framework and set of incrementally adoptable levels for securing the software supply chain against tampering.
+- [ArtefactFlow](https://www.artefactflow.com/) - _ArtefactFlow_ - A hosted platform that keeps every artefact's versions, SBOMs, licences and vulnerabilities in one place, with signed SBOM releases whose contents cannot be altered and exports to CycloneDX and SPDX.
+- [ArtefactFlow SBOM tools](https://tools.artefactflow.com/) - _ArtefactFlow_ - Free browser-based tools to view a CycloneDX or SPDX SBOM and to diff two of them; the files are read in the browser and never uploaded.
 
 ### Threat Modelling
 
